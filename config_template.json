@@ -1,0 +1,12 @@
+// This file is a template for the path_config.json that should contain the following information
+// If you are deploying to a new machine you need to create this file
+// the file needs to be "biometric-backdoor/code/config.json"
+
+{
+  "data_path_face": "/home/giulio/data/biometric-backdoor/face/",
+  "model_path_face": "/home/giulio/repos/biometric-backdoor/code/face/models/nn4.small2.lrn.h5",
+  "cleverhans_path": "/home/giulio/repos/cleverhans",
+  "repository_home": "/home/giulio/repos/biometric-backdoor/",
+  "facenet_path": "/home/giulio/repos/facenet"
+
+}

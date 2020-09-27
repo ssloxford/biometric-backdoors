@@ -1,0 +1,123 @@
+{
+  "_comment": "export PYTHONPATH='/home/giulio/repos/deepface/:/home/giulio/repos/keras-vggface/:/home/giulio/repos/biometric-backdoor/face:/home/giulio/repos/facenet/src/:/home/giulio/repos/cleverhans/:/home/giulio/repos/biometric-backdoor/:$PYTHONPATH'",
+  "paths":{
+    "data": "/home/giulio/data/biometric-backdoor/face/",
+    "cleverhans": "/home/giulio/repos/cleverhans",
+    "repository": "/home/giulio/repos/biometric-backdoor/",
+    "facenet": "/home/giulio/repos/facenet"
+  },
+  "google-cloud-vision": {
+    "api-key": "replace with your api key",
+    "oauth2-path": "path to your json credential file"
+  },
+  "models": {
+    "facenet-vgg2": {
+      "image_size": 160,
+      "face_padding": 36,
+      "start_face.py": {
+        "maxiters": 240,
+        "n_random_glasses": 100,
+        "n_pixels": 2500,
+        "gaussian_sigma": 0.5,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 100,
+        "smooth_frequency": 9,
+        "theta_multiplier": 4.0,
+        "outliers_adversary": 0.75
+      },
+      "gen_face.py": {
+        "maxiters": 360,
+        "n_pixels": 2500,
+        "gaussian_sigma": 0.5,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 200,
+        "smooth_frequency": 10,
+        "theta_multiplier": 8.0,
+        "outliers_users": 0.1
+      }
+    },
+    "facenet-casia": {
+      "image_size": 160,
+      "face_padding": 36,
+      "start_face.py": {
+        "maxiters": 240,
+        "n_random_glasses": 100,
+        "n_pixels": 2500,
+        "gaussian_sigma": 0.5,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 100,
+        "smooth_frequency": 9,
+        "theta_multiplier": 4.0,
+        "outliers_adversary": 0.75
+      },
+      "gen_face.py": {
+        "maxiters": 360,
+        "n_pixels": 2500,
+        "gaussian_sigma": 0.5,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 200,
+        "smooth_frequency": 10,
+        "theta_multiplier": 8.0,
+        "outliers_users": 0.1
+      }
+    },
+    "vgg16-lfw": {
+      "image_size": 224,
+      "face_padding": 50,
+      "start_face.py": {
+        "maxiters": 240,
+        "theta_multiplier": 4.0,
+        "n_random_glasses": 100,
+        "n_pixels": 3000,
+        "gaussian_sigma": 0.45,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 120,
+        "smooth_frequency": 10,
+        "outliers_adversary": 0.75
+      },
+      "gen_face.py": {
+        "maxiters": 480,
+        "n_pixels": 3000,
+        "gaussian_sigma": 0.45,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 120,
+        "smooth_frequency": 10,
+        "theta_multiplier": 4.0,
+        "outliers_users": 0.1
+      }
+    },
+    "vggresnet-vgg2": {
+      "image_size": 224,
+      "face_padding": 50,
+      "start_face.py": {
+        "maxiters": 240,
+        "theta_multiplier": 4.0,
+        "n_random_glasses": 100,
+        "n_pixels": 3000,
+        "gaussian_sigma": 0.45,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 120,
+        "smooth_frequency": 10,
+        "outliers_adversary": 0.75
+      },
+      "gen_face.py": {
+        "maxiters": 480,
+        "n_pixels": 3000,
+        "gaussian_sigma": 0.45,
+        "n_images": -1,
+        "outliers_fraction": 0.75,
+        "convergence_after": 120,
+        "smooth_frequency": 10,
+        "theta_multiplier": 4.0,
+        "outliers_users": 0.1
+      }
+    }
+  }
+}
