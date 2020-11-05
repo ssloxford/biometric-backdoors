@@ -93,16 +93,17 @@ Be aware that if you attempt to re-use this code you have to create `config.json
 ## Citation
 If you use this repository please cite the paper as follows:
 ```
-@misc{lovisotto2019biometric,
-    title={Biometric Backdoors: A Poisoning Attack Against Unsupervised Template Updating},
-    author={Giulio Lovisotto and Simon Eberz and Ivan Martinovic},
-    year={2019},
-    eprint={1905.09162},
-    archivePrefix={arXiv},
-    primaryClass={cs.CR}
-}
+@INPROCEEDINGS{9230411,
+  author={G. {Lovisotto} and S. {Eberz} and I. {Martinovic}},
+  booktitle={2020 IEEE European Symposium on Security and Privacy (EuroS P)}, 
+  title={Biometric Backdoors: A Poisoning Attack Against Unsupervised Template Updating}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={184-197},
+  doi={10.1109/EuroSP48549.2020.00020}}
 ```
-NB! I'll update this with the Euro S&P as soon as IEEE publishes the conference proceedings online.
+NB! An older arxiv version of the paper uses the id `lovisotto2019biometric`.
 
 ## Contributors
  * [Giulio Lovisotto](https://github.com/giuliolovisotto/)
