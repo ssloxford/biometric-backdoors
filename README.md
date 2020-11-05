@@ -95,7 +95,7 @@ If you use this repository please cite the paper as follows:
 ```
 @INPROCEEDINGS{9230411,
   author={G. {Lovisotto} and S. {Eberz} and I. {Martinovic}},
-  booktitle={2020 IEEE European Symposium on Security and Privacy (EuroS P)}, 
+  booktitle={2020 IEEE European Symposium on Security and Privacy (EuroS\&P)}, 
   title={Biometric Backdoors: A Poisoning Attack Against Unsupervised Template Updating}, 
   year={2020},
   volume={},
