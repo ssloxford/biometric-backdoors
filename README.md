@@ -61,7 +61,7 @@ updates, leading to 99\% of attacks being detected after a couple of injection a
 
 <p align="center"><img src="/github_images/countermeasure.gif" width="65%"></p>
 
-### Resources
+## Resources
 
 IEEE Euro S&P presentation [slides](https://github.com/ssloxford/biometric-backdoor/blob/master/images/talk.pdf).  
 IEEE Euro S&P presentation [video](https://www.youtube.com/watch?v=h3s21WnJWYk).  
@@ -89,6 +89,12 @@ The code is contained in the following folders:
 
 Be aware that if you attempt to re-use this code you have to create `config.json` and
 `face/config.json` based on the templates and on your local configuration.
+
+### Models
+
+In the paper I used four different models: (1) [FaceNet](https://drive.google.com/file/d/1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-/view), (2) [FaceNet-CASIA](https://drive.google.com/file/d/1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz/view), (3) ResNet-50 and (4) VGG16.
+Models 1 and 2 are taken from [https://github.com/davidsandberg/facenet](https://github.com/davidsandberg/facenet). Models 3 and 4 are taken from an old version of the `deepface` pip package, where they are called `FaceRecognizerResnet` and `FaceRecognizerVGG`, respectively.
+
 
 ## Citation
 If you use this repository please cite the paper as follows:
