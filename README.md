@@ -17,7 +17,7 @@ adversary to cause a *drift* in the user template in latent space: by planting a
 If the drift is crafted carefully then it will lead to the adversary being able to
 inconspicuously access the system.
 
-<p align="center"><img src="https://raw.githubusercontent.com/giuliolovisotto/biometric-backdoors/master/github_images/poisoning_concept.gif" width="50%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ssloxford/biometric-backdoors/master/github_images/poisoning_concept.gif" width="50%"></p>
 
 ## Attack Realization
 
@@ -30,7 +30,7 @@ a coloured frame, as introduced in ["Accessorize to a Crime"](https://dl.acm.org
 We adapt the methods of that paper to work in our poisoning use-case, by improving
 the method's resilience to *input uncertainty* and  *failed authentication attempts*.
 
-<p align="center"><img src="https://raw.githubusercontent.com/giuliolovisotto/biometric-backdoors/master/github_images/attack_steps.gif" width="80%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ssloxford/biometric-backdoors/master/github_images/attack_steps.gif" width="80%"></p>
 
 ## Result 
 
@@ -46,7 +46,7 @@ We also evaluate the performace in a black-box setting where the adversary does 
 know the target network and uses a different network as a surrogate, showing that 
 the attack can transfer across different architectures.
 
-<p align="center"><img src="https://raw.githubusercontent.com/giuliolovisotto/biometric-backdoors/master/github_images/transferability.png" width="80%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ssloxford/biometric-backdoors/master/github_images/transferability.png" width="80%"></p>
 
 ## Countermeasure
 
@@ -59,7 +59,7 @@ intra-user variation factors automatically labeled from the Google Vision API.
 We show that the countermeasure has a 7-14\% equal error rate against legitimate 
 updates, leading to 99\% of attacks being detected after a couple of injection attempts.
 
-<p align="center"><img src="https://raw.githubusercontent.com/giuliolovisotto/biometric-backdoors/master/github_images/countermeasure.gif" width="65%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ssloxford/biometric-backdoors/master/github_images/countermeasure.gif" width="65%"></p>
 
 ## Resources
 
