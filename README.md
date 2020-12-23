@@ -112,7 +112,7 @@ If you use this repository please cite the paper as follows:
 NB! An older arxiv version of the paper uses the id `lovisotto2019biometric`.
 
 ## Contributors
- * [Giulio Lovisotto](https://github.com/giuliolovisotto/)
+ * [Giulio Lovisotto](https://giuliolovisotto.github.io)
  * [Simon Eberz](https://www.cs.ox.ac.uk/people/simon.eberz/)
 
 ## Acknowledgements
