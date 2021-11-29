@@ -63,7 +63,7 @@ updates, leading to 99\% of attacks being detected after a couple of injection a
 
 ## Resources
 
-IEEE Euro S&P presentation [slides](https://github.com/ssloxford/biometric-backdoor/blob/master/images/talk.pdf).  
+IEEE Euro S&P presentation [slides](https://github.com/ssloxford/biometric-backdoors/blob/master/images/talk.pdf).  
 IEEE Euro S&P presentation [video](https://www.youtube.com/watch?v=h3s21WnJWYk).  
 [![Conference presentation video](https://img.youtube.com/vi/h3s21WnJWYk/0.jpg)](https://www.youtube.com/watch?v=h3s21WnJWYk)
 
